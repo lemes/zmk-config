@@ -1,0 +1,4 @@
+layout:
+  ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 3}
+layers:
+  COLEMAK: [Q, W, F, P, B, J, L, U, Y, ';', A, R, S, T, G, M, N, E, I, O, Z, X, C, D, V, K, H, ',', ., /, LSHFT, TAB, SPACE, RET, BSPC, LGUI]
