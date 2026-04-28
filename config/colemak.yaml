@@ -1,4 +1,299 @@
-layout:
-  ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 3}
+layout: {zmk_keyboard: piantor_pro_bt, layout_name: default_layout}
 layers:
-  COLEMAK: [Q, W, F, P, B, J, L, U, Y, ';', A, R, S, T, G, M, N, E, I, O, Z, X, C, D, V, K, H, ',', ., /, LSHFT, TAB, SPACE, RET, BSPC, LGUI]
+  COLEMAK: [Q, W, F, P, B, J, L, U, Y, ;, A, R, S, T, G, M, N, E, I, O, Z, X, C, D, V, K, H, ',', ., /, LGUI, NUMBER, SPACE, RET, SYMBOL, RALT]
+  NUMBER:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - {t: "\u25BD", type: trans}
+  - BT CLR
+  - RGB TOG
+  - '&sys_reset'
+  - '&bootloader'
+  - '&studio_unlock'
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - LGUI
+  - {type: held}
+  - SPACE
+  - LGUI
+  - {t: "\u25BD", type: trans}
+  - SPACE
+  SYMBOL:
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - '-'
+  - '='
+  - '['
+  - ']'
+  - \
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - _
+  - +
+  - '{'
+  - '}'
+  - '|'
+  - LGUI
+  - {t: "\u25BD", type: trans}
+  - SPACE
+  - RET
+  - {type: held}
+  - RALT
+  EXTRA 1:
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  EXTRA 2:
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  EXTRA 3:
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  EXTRA 4:
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  EXTRA 5:
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  EXTRA 6:
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
+  - {t: "\u25BD", type: trans}
