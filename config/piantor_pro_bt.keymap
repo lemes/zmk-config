@@ -1,6 +1,7 @@
 // Miryoku (manna-harbour) on Piantor Pro BT.
 // Uses the 42-key Corne mapping: outer columns are &none, alphas are 3x5+3.
-// Layers, mods and layer-taps come from ../miryoku — tweak ../miryoku/custom_config.h, not this file.
+// Layers, mods and layer-taps come from ./miryoku — tweak miryoku/custom_config.h, not this file.
+// It lives under config/ because the ZMK build workflow only copies config/* into the workspace.
 
 / {
     chosen {
@@ -8,6 +9,6 @@
     };
 };
 
-#include "../miryoku/custom_config.h"
-#include "../miryoku/mapping/42/corne.h"
-#include "../miryoku/miryoku.dtsi"
+#include "miryoku/custom_config.h"
+#include "miryoku/mapping/42/corne.h"
+#include "miryoku/miryoku.dtsi"
